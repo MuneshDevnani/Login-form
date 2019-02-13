@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wellcome page</title>
+	
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+</head>
+<body>
+<!-- <form method="get"></form> -->
+<div class="container">
+<h1>Home Page</h1>
+<p>Well come <span id="message"></span></p>
+
+<a href="Login.html" class="btn btn-success">Log out</a>
+</div>
+
+<script type="text/javascript">
+	
+	document.getElementById('message').innerHTML = JSON.parse(localStorage.currentun)
+</script>
+
+</body>
+</html>
